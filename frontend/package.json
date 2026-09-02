@@ -1,0 +1,24 @@
+{
+  "name": "cloudstock-frontend",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "dependencies": {
+    "@stripe/react-stripe-js": "^2.4.0",
+    "@stripe/stripe-js": "^2.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "recharts": "^2.15.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%"
+    ],
+    "development": [
+      "last 1 chrome version"
+    ]
+  }
+}
