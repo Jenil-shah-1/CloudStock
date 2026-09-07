@@ -313,7 +313,7 @@ function App() {
                 <div className="hero-text">
                   <span className="hero-badge">⚡ Cloud Deals — Verified Fast Dispatch</span>
                   <h1>CloudStock — Intelligent Cloud-Scale Commerce.</h1>
-                  <p className="hero-subtitle">High-performance microservices architecture delivering real-time inventory discovery, instant Stripe checkout, and full observability.</p>
+                  <p className="hero-subtitle">High-performance microservices architecture delivering real-time inventory discovery, instant Stripe checkout, and secure order processing.</p>
                   <div className="hero-buttons">
                     <button className="hero-cta" onClick={() => document.querySelector('.products-section').scrollIntoView({ behavior: 'smooth' })}>Shop Now</button>
                     <button className="hero-cta-secondary" onClick={() => document.querySelector('.hot-deals').scrollIntoView({ behavior: 'smooth' })}>View Deals</button>
@@ -755,7 +755,7 @@ function App() {
                     </div>
                   </div>
 
-                  <div className="admin-section grafana-panel">
+                  <div className="admin-section chart-panel">
                     <div className="panel-header">
                       <h3>📈 Revenue Over Time</h3>
                       <div className="time-range-selector">
@@ -800,7 +800,7 @@ function App() {
                     </div>
                   </div>
 
-                  <div className="admin-section grafana-panel">
+                  <div className="admin-section chart-panel">
                     <div className="panel-header">
                       <h3>📊 Revenue Breakdown</h3>
                     </div>
